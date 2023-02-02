@@ -1,0 +1,58 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+* {
+  scrollbar-width: thin; }
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: aqua; }
+
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  background-color: #2d77ff; }
+
+html,
+body {
+  scroll-behavior: smooth;
+  background-color: aqua; }
+
+/* Change text & background color */
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none; }
+
+img {
+  vertical-align: middle; }
+
+ul,
+ol {
+  list-style: none; }
+
+#content-box {
+  padding: 30px;
+  background-color: #fff;
+  width: 1142px;
+  height: 1400px;
+  margin: 300px auto; }
+  #content-box .first-part {
+    height: 598px;
+    background-image: url(../images/first.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; }
+
+/*# sourceMappingURL=style.css.map */
