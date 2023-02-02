@@ -24,7 +24,7 @@
 html,
 body {
     scroll-behavior: smooth;
-    background-color: aqua;
+    // background-color: aqua;
 }
 
 /* Change text & background color */
@@ -51,4 +51,21 @@ img {
 ul,
 ol {
     list-style: none;
+}
+
+@font-face {
+    font-family: Typold-Black;
+    src: url(../fonts/Typold-Black.otf);
+}
+@font-face {
+    font-family: Typold-Bold;
+    src: url(../fonts/Typold-Bold.otf);
+}
+@font-face {
+    font-family: Typold-Medium;
+    src: url(../fonts/Typold-Medium.otf);
+}
+@font-face {
+    font-family: Typold-Regular;
+    src: url(../fonts/Typold-Regular.otf);
 }
